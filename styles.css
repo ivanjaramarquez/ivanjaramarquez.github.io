@@ -1,0 +1,86 @@
+#arrow
+{
+    transform: rotate(90deg);
+    padding-top: 60px;
+}
+
+#face
+{
+    height: 70px;
+    width: 60px;
+    float: right;
+    margin-right: -100px;
+}
+
+#face:hover
+{
+    transform: rotate(-20deg);
+}
+
+#glowup
+{
+    padding-top:50px;
+}
+
+#shine:hover
+{
+    font-style: italic;
+    color:rgb(255, 215, 0);
+}
+
+#spotify
+{
+    color:rgb(00,200,00);
+}
+
+#tesla
+{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.bar
+{
+    background-color:rgb(223,31,61);
+    color:rgb(255,255,255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.center /* Got this idea from https://www.w3schools.com/howto/howto_css_image_center.asp */
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.title
+{
+    float: left;
+    margin-left: -170px;
+    padding-top: 20px;
+}
+
+body
+{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body > p
+{
+    text-indent: 50px;
+}
+
+body > h2
+{
+    margin-left: 20px;
+}
+
+@font-face {
+font-family:"myriad-pro-condensed";
+src:url("https://use.typekit.net/af/f72c04/0000000000000000000170a4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/f72c04/0000000000000000000170a4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/f72c04/0000000000000000000170a4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
